@@ -1,0 +1,59 @@
+{
+	"file_path": "C:\\Users\\Furkan Sancak\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\Trial rp\\textures\\item_texture.json",
+	"file_type": "item_texture",
+	"format_version": 1,
+	"file_uuid": "6fea63d7_5f99_4fd5_80eb_e5f0e1bebba5",
+	"file_version": 0,
+	"cache_content": {
+		"children": [
+			{
+				"data": "bridgeRP",
+				"key": "resource_pack_name"
+			},
+			{
+				"data": "atlas.items",
+				"key": "texture_name"
+			},
+			{
+				"open": {
+					"resource_pack_name": "bridgeRP",
+					"texture_name": "atlas.items",
+					"texture_data": {
+						"trial_food": {
+							"textures": [
+								"textures/items/trial_food"
+							]
+						}
+					}
+				},
+				"key": "texture_data",
+				"children": [
+					{
+						"open": {
+							"trial_food": {
+								"textures": [
+									"textures/items/trial_food"
+								]
+							}
+						},
+						"key": "trial_food",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/items/trial_food"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/items/trial_food"
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

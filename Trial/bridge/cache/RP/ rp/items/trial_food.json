@@ -1,0 +1,77 @@
+{
+	"file_path": "C:\\Users\\Furkan Sancak\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\Trial rp\\items\\trial_food.json",
+	"file_type": "client_item",
+	"format_version": 1,
+	"file_uuid": "6a0c441d_5cab_4341_9ab1_b194821f967e",
+	"file_version": 2,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.0",
+					"minecraft:item": {
+						"description": {
+							"identifier": "trial:trial_food",
+							"category": "nature"
+						},
+						"components": {
+							"minecraft:icon": "trial_food",
+							"minecraft:use_animation": "eat",
+							"minecraft:render_offsets": "apple",
+							"minecraft:hover_text_color": "dark_blue"
+						}
+					}
+				},
+				"key": "minecraft:item",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "trial:trial_food",
+								"category": "nature"
+							},
+							"components": {
+								"minecraft:icon": "trial_food",
+								"minecraft:use_animation": "eat",
+								"minecraft:render_offsets": "apple",
+								"minecraft:hover_text_color": "dark_blue"
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "trial:trial_food",
+							"category": "nature"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "trial:trial_food",
+								"category": "nature"
+							},
+							"components": {
+								"minecraft:icon": "trial_food",
+								"minecraft:use_animation": "eat",
+								"minecraft:render_offsets": "apple",
+								"minecraft:hover_text_color": "dark_blue"
+							}
+						},
+						"key": "components",
+						"is_minified": true,
+						"children": {
+							"minecraft:icon": "trial_food",
+							"minecraft:use_animation": "eat",
+							"minecraft:render_offsets": "apple",
+							"minecraft:hover_text_color": "dark_blue"
+						}
+					}
+				]
+			}
+		]
+	}
+}

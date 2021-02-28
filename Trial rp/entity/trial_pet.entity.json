@@ -1,0 +1,40 @@
+//bridge-file-version: #10
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "trial:trial_pet",
+			"materials": {
+				"default": "entity"
+			},
+			"textures": {
+				"default": "textures/entity/wolf/wolf",
+				"tame": "textures/entity/wolf/wolf_tame"
+			},
+			"geometry": {
+				"default": "geometry.trial_pet"
+			},
+			"scripts": {
+				"animate": [
+					"wolf_look_at",
+					{
+						"wolf_sitting": "query.is_sitting"
+					},
+					"wolf_leg_default"
+				]
+			},
+			"animations": {
+				"wolf_look_at": "animation.common.look_at_target",
+				"wolf_sitting": "animation.wolf.sitting",
+				"wolf_leg_default": "animation.wolf.leg_default"
+			},
+			"render_controllers": [
+				"controller.render.trial_pet"
+			],
+			"spawn_egg": {
+				"texture": "spawn_egg",
+				"texture_index": 100
+			}
+		}
+	}
+}

@@ -1,0 +1,73 @@
+{
+	"file_path": "C:\\Users\\Furkan Sancak\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Trial\\blocks\\trial_ore.json",
+	"file_type": "block",
+	"format_version": 1,
+	"file_uuid": "dd89f05b_3304_47f9_8fb6_770f904674ed",
+	"file_version": 1,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.0",
+					"minecraft:block": {
+						"description": {
+							"identifier": "trial:trial_ore"
+						},
+						"components": {
+							"minecraft:destroy_time": 2,
+							"minecraft:map_color": "#00E4FF",
+							"minecraft:explosion_resistance": 0.5,
+							"minecraft:loot": "loot_tables/trial_ore_loot_table.json"
+						}
+					}
+				},
+				"key": "minecraft:block",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "trial:trial_ore"
+							},
+							"components": {
+								"minecraft:destroy_time": 2,
+								"minecraft:map_color": "#00E4FF",
+								"minecraft:explosion_resistance": 0.5,
+								"minecraft:loot": "loot_tables/trial_ore_loot_table.json"
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "trial:trial_ore"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "trial:trial_ore"
+							},
+							"components": {
+								"minecraft:destroy_time": 2,
+								"minecraft:map_color": "#00E4FF",
+								"minecraft:explosion_resistance": 0.5,
+								"minecraft:loot": "loot_tables/trial_ore_loot_table.json"
+							}
+						},
+						"key": "components",
+						"is_minified": true,
+						"children": {
+							"minecraft:destroy_time": 2,
+							"minecraft:map_color": "#00E4FF",
+							"minecraft:explosion_resistance": 0.5,
+							"minecraft:loot": "loot_tables/trial_ore_loot_table.json"
+						}
+					}
+				]
+			}
+		]
+	}
+}

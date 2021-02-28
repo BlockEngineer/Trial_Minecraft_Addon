@@ -1,0 +1,17 @@
+//bridge-file-version: #1
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+		"controller.render.trial_pet": {
+			"materials": [
+				{
+					"*": "Material.default"
+				}
+			],
+			"geometry": "Geometry.default",
+			"textures": [
+				"query.is_tamed ? Texture.tame : Texture.default"
+			]
+		}
+	}
+}

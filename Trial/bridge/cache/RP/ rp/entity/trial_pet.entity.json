@@ -1,0 +1,384 @@
+{
+	"file_path": "C:\\Users\\Furkan Sancak\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\Trial rp\\entity\\trial_pet.entity.json",
+	"file_type": "client_entity",
+	"format_version": 1,
+	"file_uuid": "81da747f_b795_4bda_aa66_1d6d840b9989",
+	"file_version": 10,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"format_version": "1.10.0",
+					"minecraft:client_entity": {
+						"description": {
+							"identifier": "trial:trial_pet",
+							"materials": {
+								"default": "entity"
+							},
+							"textures": {
+								"default": "textures/entity/wolf/wolf",
+								"tame": "textures/entity/wolf/wolf_tame"
+							},
+							"geometry": {
+								"default": "geometry.trial_pet"
+							},
+							"scripts": {
+								"animate": [
+									"wolf_look_at",
+									{
+										"wolf_sitting": "query.is_sitting"
+									},
+									"wolf_leg_default"
+								]
+							},
+							"animations": {
+								"wolf_look_at": "animation.common.look_at_target",
+								"wolf_sitting": "animation.wolf.sitting",
+								"wolf_leg_default": "animation.wolf.leg_default"
+							},
+							"render_controllers": [
+								"controller.render.trial_pet"
+							],
+							"spawn_egg": {
+								"texture": "spawn_egg",
+								"texture_index": 100
+							}
+						}
+					}
+				},
+				"data": "1.10.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.10.0",
+					"minecraft:client_entity": {
+						"description": {
+							"identifier": "trial:trial_pet",
+							"materials": {
+								"default": "entity"
+							},
+							"textures": {
+								"default": "textures/entity/wolf/wolf",
+								"tame": "textures/entity/wolf/wolf_tame"
+							},
+							"geometry": {
+								"default": "geometry.trial_pet"
+							},
+							"scripts": {
+								"animate": [
+									"wolf_look_at",
+									{
+										"wolf_sitting": "query.is_sitting"
+									},
+									"wolf_leg_default"
+								]
+							},
+							"animations": {
+								"wolf_look_at": "animation.common.look_at_target",
+								"wolf_sitting": "animation.wolf.sitting",
+								"wolf_leg_default": "animation.wolf.leg_default"
+							},
+							"render_controllers": [
+								"controller.render.trial_pet"
+							],
+							"spawn_egg": {
+								"texture": "spawn_egg",
+								"texture_index": 100
+							}
+						}
+					}
+				},
+				"key": "minecraft:client_entity",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "trial:trial_pet",
+								"materials": {
+									"default": "entity"
+								},
+								"textures": {
+									"default": "textures/entity/wolf/wolf",
+									"tame": "textures/entity/wolf/wolf_tame"
+								},
+								"geometry": {
+									"default": "geometry.trial_pet"
+								},
+								"scripts": {
+									"animate": [
+										"wolf_look_at",
+										{
+											"wolf_sitting": "query.is_sitting"
+										},
+										"wolf_leg_default"
+									]
+								},
+								"animations": {
+									"wolf_look_at": "animation.common.look_at_target",
+									"wolf_sitting": "animation.wolf.sitting",
+									"wolf_leg_default": "animation.wolf.leg_default"
+								},
+								"render_controllers": [
+									"controller.render.trial_pet"
+								],
+								"spawn_egg": {
+									"texture": "spawn_egg",
+									"texture_index": 100
+								}
+							}
+						},
+						"key": "description",
+						"children": [
+							{
+								"data": "trial:trial_pet",
+								"key": "identifier"
+							},
+							{
+								"key": "materials",
+								"is_minified": true,
+								"children": {
+									"default": "entity"
+								}
+							},
+							{
+								"open": {
+									"identifier": "trial:trial_pet",
+									"materials": {
+										"default": "entity"
+									},
+									"textures": {
+										"default": "textures/entity/wolf/wolf",
+										"tame": "textures/entity/wolf/wolf_tame"
+									},
+									"geometry": {
+										"default": "geometry.trial_pet"
+									},
+									"scripts": {
+										"animate": [
+											"wolf_look_at",
+											{
+												"wolf_sitting": "query.is_sitting"
+											},
+											"wolf_leg_default"
+										]
+									},
+									"animations": {
+										"wolf_look_at": "animation.common.look_at_target",
+										"wolf_sitting": "animation.wolf.sitting",
+										"wolf_leg_default": "animation.wolf.leg_default"
+									},
+									"render_controllers": [
+										"controller.render.trial_pet"
+									],
+									"spawn_egg": {
+										"texture": "spawn_egg",
+										"texture_index": 100
+									}
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": {
+									"default": "textures/entity/wolf/wolf",
+									"tame": "textures/entity/wolf/wolf_tame"
+								}
+							},
+							{
+								"open": {
+									"identifier": "trial:trial_pet",
+									"materials": {
+										"default": "entity"
+									},
+									"textures": {
+										"default": "textures/entity/wolf/wolf",
+										"tame": "textures/entity/wolf/wolf_tame"
+									},
+									"geometry": {
+										"default": "geometry.trial_pet"
+									},
+									"scripts": {
+										"animate": [
+											"wolf_look_at",
+											{
+												"wolf_sitting": "query.is_sitting"
+											},
+											"wolf_leg_default"
+										]
+									},
+									"animations": {
+										"wolf_look_at": "animation.common.look_at_target",
+										"wolf_sitting": "animation.wolf.sitting",
+										"wolf_leg_default": "animation.wolf.leg_default"
+									},
+									"render_controllers": [
+										"controller.render.trial_pet"
+									],
+									"spawn_egg": {
+										"texture": "spawn_egg",
+										"texture_index": 100
+									}
+								},
+								"key": "geometry",
+								"is_minified": true,
+								"children": {
+									"default": "geometry.trial_pet"
+								}
+							},
+							{
+								"key": "scripts",
+								"children": [
+									{
+										"open": {
+											"animate": [
+												"wolf_look_at",
+												{
+													"wolf_sitting": "query.is_sitting"
+												},
+												"wolf_leg_default"
+											]
+										},
+										"key": "animate",
+										"is_minified": true,
+										"children": [
+											"wolf_look_at",
+											{
+												"wolf_sitting": "query.is_sitting"
+											},
+											"wolf_leg_default"
+										]
+									}
+								]
+							},
+							{
+								"open": {
+									"identifier": "trial:trial_pet",
+									"materials": {
+										"default": "entity"
+									},
+									"textures": {
+										"default": "textures/entity/wolf/wolf",
+										"tame": "textures/entity/wolf/wolf_tame"
+									},
+									"geometry": {
+										"default": "geometry.trial_pet"
+									},
+									"scripts": {
+										"animate": [
+											"wolf_look_at",
+											{
+												"wolf_sitting": "query.is_sitting"
+											},
+											"wolf_leg_default"
+										]
+									},
+									"animations": {
+										"wolf_look_at": "animation.common.look_at_target",
+										"wolf_sitting": "animation.wolf.sitting",
+										"wolf_leg_default": "animation.wolf.leg_default"
+									},
+									"render_controllers": [
+										"controller.render.trial_pet"
+									],
+									"spawn_egg": {
+										"texture": "spawn_egg",
+										"texture_index": 100
+									}
+								},
+								"key": "animations",
+								"is_minified": true,
+								"children": {
+									"wolf_look_at": "animation.common.look_at_target",
+									"wolf_sitting": "animation.wolf.sitting",
+									"wolf_leg_default": "animation.wolf.leg_default"
+								}
+							},
+							{
+								"open": {
+									"identifier": "trial:trial_pet",
+									"materials": {
+										"default": "entity"
+									},
+									"textures": {
+										"default": "textures/entity/wolf/wolf",
+										"tame": "textures/entity/wolf/wolf_tame"
+									},
+									"geometry": {
+										"default": "geometry.trial_pet"
+									},
+									"scripts": {
+										"animate": [
+											"wolf_look_at",
+											{
+												"wolf_sitting": "query.is_sitting"
+											},
+											"wolf_leg_default"
+										]
+									},
+									"animations": {
+										"wolf_look_at": "animation.common.look_at_target",
+										"wolf_sitting": "animation.wolf.sitting",
+										"wolf_leg_default": "animation.wolf.leg_default"
+									},
+									"render_controllers": [
+										"controller.render.trial_pet"
+									],
+									"spawn_egg": {
+										"texture": "spawn_egg",
+										"texture_index": 100
+									}
+								},
+								"key": "render_controllers",
+								"is_minified": true,
+								"children": [
+									"controller.render.trial_pet"
+								]
+							},
+							{
+								"open": {
+									"identifier": "trial:trial_pet",
+									"materials": {
+										"default": "entity"
+									},
+									"textures": {
+										"default": "textures/entity/wolf/wolf",
+										"tame": "textures/entity/wolf/wolf_tame"
+									},
+									"geometry": {
+										"default": "geometry.trial_pet"
+									},
+									"scripts": {
+										"animate": [
+											"wolf_look_at",
+											{
+												"wolf_sitting": "query.is_sitting"
+											},
+											"wolf_leg_default"
+										]
+									},
+									"animations": {
+										"wolf_look_at": "animation.common.look_at_target",
+										"wolf_sitting": "animation.wolf.sitting",
+										"wolf_leg_default": "animation.wolf.leg_default"
+									},
+									"render_controllers": [
+										"controller.render.trial_pet"
+									],
+									"spawn_egg": {
+										"texture": "spawn_egg",
+										"texture_index": 100
+									}
+								},
+								"key": "spawn_egg",
+								"is_minified": true,
+								"children": {
+									"texture": "spawn_egg",
+									"texture_index": 100
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}
